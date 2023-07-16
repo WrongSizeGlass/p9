@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!64 &-1374502040365478863
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938085703143528279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: 8859bb31c344eef4486306876f02042e, type: 3}
+--- !u!82 &-2955720918584109651
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938085703143528279}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-4562407590441417123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938085703143528279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ba23144b7ab9149ae6d96a5d511318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogIndex: 0
+  dialogstring: 
+  minNegativeGoodWill: 4.5
+  maxPositiveGoodWill: 6.5
+  petRock: {fileID: 0}
+  Leash: {fileID: 0}
+  ac: []
+  QuestDescription:
+  - "I have lost my hat and I am hoping you can find it for me \n Last time I had
+    it was near the well behind my house. \nMy hat has black and green squares. "
+  - My colleagues at the 'Market' has messed up their inventory.
+  - "Some how we can't get electricity any more \nCan you take a look and fix it? "
+  CompletedQuestList:
+  - 'Quest 1: Thank you for doing this '
+  - 'Quest 2: Thanks for this '
+  - 'Quest 3: Good job now we all can benefit from it '
+  PositiveCompletedQuestListPlayer1:
+  - 'Thank you, us proper pointies need to stick togeather. '
+  - ' Thank you, your help is much appreciated.'
+  - ' Thank you, I knew you could do it'
+  PositiveCompletedQuestListPlayer2:
+  - " Thank you, I knew you would help, \n not many other would help me with this "
+  - ' Thank you, your help is much appreciated'
+  - Thank you, now we all can benefit from it
+  negativeCompletedQuestListPlayer1:
+  - " Thanks ... now go! \n I hate the smell of cheess."
+  - ' Now Go away stinky, before you stick me down. '
+  - ' At least we have power but I still don''t like you. '
+  negativeCompletedQuestListPlayer2:
+  - " Thanks ... now go! \n I don't have time to play chess."
+  - " Thanks for the help, \n You know I all have need of a new dinner table can
+    I use you? "
+  - ' At least we have power but I still don''t like you. '
+  myQuestIndex: 4
+  hasAlreadyCompletedMyQuest: 0
+  hasGivenQuestIntro: 0
+  hasGivenDescription: 0
+  hasSaidHello: 0
+  hasSaidGoodby: 0
+  IcanGiveTips: 0
+  IhaveGivenTips: 0
+  CompletedQuest: 0
+  SaidHello: 0
+  askedForQuest: 0
+  acceptedQuest: 0
+  saidGoodBye: 0
+  questLogo: {fileID: 0}
+  DisallowTips: {fileID: 0}
+  leash: 0
+--- !u!114 &4362173599850456348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938085703143528279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8b0dd0ea1bce34ea49c442966aebed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyGoodWill: 0
+  GoodWillOffset: 0
+  myBiasValue: 0
+  myIndividualBiases: 0
+  otherGeoIndex: 0
+  otherThickIndex: 0
+  otherPatIndex: 0
+  otherGeoBias: 0
+  otherThickBias: 0
+  otherPatBias: 0
+  playerInteractionCounter: 0
+  npcInteractionCounter: 0
+  interactions: 0
+  questNpc: 0
+  CanInteract: 0
+  playerBiasList: []
+  helloDialog: 1
+  sayGoodBye: 1
+  questIsCompletedDialog: 0
+  questIsCompleted: 0
+  askForQuestDialog: 0
+  acceptQuestDialog: 0
+  MyGoodWillHasUpdated: 0
+  EQC: {fileID: 0}
+  MC: {fileID: 0}
+  questCompleted: 0
+  savePlayerInteractionCounter: 0
+  meFirst: 0
+  goodFaith: 0
+  save: 0
+  hasSaved: 0
+--- !u!114 &8804656444151450125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938085703143528279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1f1c07022234a409d9ee75c9340a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGeoIndex: 0
+  myThicknessIndex: 3
+  myPatterenIndex: 4
+  TriangleBias: 0
+  npcDialogGeoBias: 0
+  npcDialogThickBias: 0
+  npcDialogPatBias: 0
+  goodFaith: 0
+  GeneralBias: 0
+  myBiases: []
+  myBiases2: []
+  firstPlayer: {fileID: 0}
+  SecondPlayer: {fileID: 0}
+  FirstPlaythrough: 1
+  mc: {fileID: 0}
+  pos1: {fileID: 0}
+  pos2: {fileID: 0}
+  abc: 
+--- !u!1001 &788656254407945013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1581420895731839923, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: myThicknessIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980579650013582594, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: minNegativeGoodWill
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573634573143784546, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_Name
+      value: TriangleThinBlank
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.52225006
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6854902
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 370.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 291.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7245768
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.68919414
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -87.133
+      objectReference: {fileID: 0}
+    - target: {fileID: 9056874728451368664, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+--- !u!1 &8938085703143528279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8573634573143784546, guid: ccd74dbf435f9a04bb8aa5a322f29561, type: 3}
+  m_PrefabInstance: {fileID: 788656254407945013}
+  m_PrefabAsset: {fileID: 0}

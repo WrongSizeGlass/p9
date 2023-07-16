@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6170508349836953757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -208028921681648589, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -208028921681648589, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: outlineMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -208028921681648589, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: outlineColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -208028921681648589, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: outlineColor.g
+      value: 0.91838396
+      objectReference: {fileID: 0}
+    - target: {fileID: -208028921681648589, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: outlineColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 481464544698367764, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_Name
+      value: BlueAndGreenhalfsphere Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 353.771
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.389
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 268.708
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90330863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.21472834
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.26363745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.26157328
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.478
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 37.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001296511654471086, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -37.229
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138784328646090433, guid: f432af73706715847851bfee99b9339a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39400b713c09d7a4e809c0efab46ef02, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f432af73706715847851bfee99b9339a, type: 3}

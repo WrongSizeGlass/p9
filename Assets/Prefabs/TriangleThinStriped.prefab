@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6917070976863798814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6103942972625247396}
+  - component: {fileID: 7141112923507577601}
+  - component: {fileID: 4971590360134199243}
+  - component: {fileID: 732996860140115212}
+  - component: {fileID: 3520530713192107763}
+  - component: {fileID: 4845247079761593115}
+  - component: {fileID: -5433775726849163114}
+  - component: {fileID: -4966995081850174193}
+  - component: {fileID: -1779955079356001337}
+  m_Layer: 0
+  m_Name: TriangleThinStriped
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6103942972625247396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_LocalRotation: {x: -0, y: -0.7144452, z: -0, w: 0.69969153}
+  m_LocalPosition: {x: 372.49774, y: 3.37, z: 287.68933}
+  m_LocalScale: {x: 0.5738953, y: 0.25, z: 0.65111}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -91.195, z: 0}
+--- !u!33 &7141112923507577601
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Mesh: {fileID: 5302568919011541938, guid: 555d313173cf9f74b9b77020c8f60161, type: 3}
+--- !u!23 &4971590360134199243
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c8485ef0a9887ec4b84f9d0dcffb2cee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &732996860140115212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1f1c07022234a409d9ee75c9340a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGeoIndex: 0
+  myThicknessIndex: 3
+  myPatterenIndex: 5
+  TriangleBias: 0
+  npcDialogGeoBias: 0
+  npcDialogThickBias: 0
+  npcDialogPatBias: 0
+  goodFaith: 0
+  GeneralBias: 0
+  myBiases: []
+  myBiases2: []
+  firstPlayer: {fileID: 0}
+  SecondPlayer: {fileID: 0}
+  FirstPlaythrough: 1
+  mc: {fileID: 0}
+  pos1: {fileID: 0}
+  pos2: {fileID: 0}
+  abc: 
+--- !u!114 &3520530713192107763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8b0dd0ea1bce34ea49c442966aebed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyGoodWill: 0
+  GoodWillOffset: 0
+  myBiasValue: 0
+  myIndividualBiases: 0
+  otherGeoIndex: 0
+  otherThickIndex: 0
+  otherPatIndex: 0
+  otherGeoBias: 0
+  otherThickBias: 0
+  otherPatBias: 0
+  playerInteractionCounter: 0
+  npcInteractionCounter: 0
+  interactions: 0
+  questNpc: 0
+  CanInteract: 0
+  playerBiasList: []
+  helloDialog: 1
+  sayGoodBye: 1
+  questIsCompletedDialog: 0
+  questIsCompleted: 0
+  askForQuestDialog: 0
+  acceptQuestDialog: 0
+  MyGoodWillHasUpdated: 0
+  EQC: {fileID: 0}
+  MC: {fileID: 0}
+  questCompleted: 0
+  savePlayerInteractionCounter: 0
+  meFirst: 0
+  goodFaith: 0
+  save: 0
+  hasSaved: 0
+--- !u!114 &4845247079761593115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ba23144b7ab9149ae6d96a5d511318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogIndex: 0
+  dialogstring: 
+  minNegativeGoodWill: 5
+  maxPositiveGoodWill: 6.5
+  petRock: {fileID: 0}
+  Leash: {fileID: 0}
+  ac:
+  - {fileID: 8300000, guid: c5210666592a2ea4e8175f1bcf04f618, type: 3}
+  - {fileID: 8300000, guid: 88235ad09728db849a36bc09f5e0d02b, type: 3}
+  - {fileID: 8300000, guid: 0ae73ced03d426f4e93b65af5ce8c2da, type: 3}
+  - {fileID: 8300000, guid: 9a20c7a25651c914990e970b122a6946, type: 3}
+  QuestDescription:
+  - "I have lost my hat and I am hoping you can find it for me \n Last time I had
+    it was near the well behind my house. \nMy hat has black and green squares. "
+  - My colleagues at the 'Market' has messed up their inventory.
+  - "Some how we can't get electricity any more \nCan you take a look and fix it? "
+  CompletedQuestList:
+  - 'Thank you for doing this '
+  - 'Thanks for this '
+  - 'Good job now we all can benefit from it '
+  PositiveCompletedQuestListPlayer1:
+  - "Thank you, You\u2019re looking gouda!"
+  - Thank you, us proper pointies need to stick together.
+  - Thank you, I knew you could do it
+  PositiveCompletedQuestListPlayer2:
+  - " Thank you, I knew you would help, \n not many other would help me with this "
+  - ' Thank you, your help is much appreciated'
+  - Thank you, now we all can benefit from it
+  negativeCompletedQuestListPlayer1:
+  - " Thanks ... now go! \n I hate the smell of cheess."
+  - ' Now Go away stinky, before you stick me down. '
+  - " I gotta get out of here, I\u2019m lac-ghost intolerant.."
+  negativeCompletedQuestListPlayer2:
+  - " Thanks ... now go! \n I don't have time to play chess."
+  - " Thanks for the help, \n you must have had a checkered past right? "
+  - ' Have you nerfed the queen yet?. '
+  myQuestIndex: 4
+  hasAlreadyCompletedMyQuest: 0
+  hasGivenQuestIntro: 0
+  hasGivenDescription: 0
+  hasSaidHello: 0
+  hasSaidGoodby: 0
+  IcanGiveTips: 0
+  IhaveGivenTips: 0
+  CompletedQuest: 0
+  SaidHello: 0
+  askedForQuest: 0
+  acceptedQuest: 0
+  saidGoodBye: 0
+  questLogo: {fileID: 0}
+  DisallowTips: {fileID: 0}
+  leash: 0
+--- !u!114 &-5433775726849163114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0.9764706, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!64 &-4966995081850174193
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: 555d313173cf9f74b9b77020c8f60161, type: 3}
+--- !u!82 &-1779955079356001337
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917070976863798814}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
